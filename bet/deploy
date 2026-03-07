@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Navigate to the nextjs/bet directory
+cd nextjs/bet
+
+# Pull the latest changes from the Git repository
+git pull
+
+# Stop all PM2 processes
+pm2 stop all
+
+# Build the Next.js application
+npm run build
+
+# Start all PM2 processes (reloads the app)
+pm2 start all
+
+echo "Deployment completed successfully."
