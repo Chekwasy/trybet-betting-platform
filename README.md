@@ -8,23 +8,19 @@ The platform automatically retrieves match results and resolves bets accordingly
 
 ## Live Demo
 
-[Live Application](YOUR_LIVE_LINK)
+[Live Application](https://nextjs-qvmz.vercel.app/)
 
 ---
 
 ## Screenshots
 
-### Dashboard
+### Mobile view screenshots
 
-![Dashboard](screenshots/dashboard.png)
+!(screenshots/mobile-view/)
 
-### Betting Page
+### Laptop-screen screenshots
 
-![Betting](screenshots/betting.png)
-
-### Admin Panel
-
-![Admin](screenshots/admin.png)
+!(screenshots/laptop-screen)
 
 ---
 
