@@ -126,11 +126,6 @@ export default function Sub() {
                   : "border-gray-200 hover:border-indigo-400"
               }`}
           >
-            {/* Badge */}
-            <span className="absolute top-2 right-2 text-xs bg-indigo-600 text-white px-2 py-1 rounded-full">
-              Most Popular
-            </span>
-
             <div className="flex justify-between items-center">
               <h3 className="font-semibold text-lg">Monthly</h3>
               <span className="text-indigo-600 font-bold text-xl">₦800</span>

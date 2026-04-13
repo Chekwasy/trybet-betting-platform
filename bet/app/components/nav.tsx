@@ -136,7 +136,7 @@ export default function Nav() {
               More ▾
             </button>
 
-            <div className="absolute right-0 mt-2 w-48 bg-white rounded shadow-lg hidden group-hover:block">
+            <div className="absolute right-0 top-full w-48 bg-white rounded shadow-lg hidden group-hover:block">
               {storeItems.mainSlice.logged && (
                 <>
                   <DropdownItem href="/two2win" label="Two2Win" />
@@ -168,7 +168,7 @@ export default function Nav() {
                 U
               </div>
 
-              <div className="absolute right-0 mt-2 w-40 bg-white rounded shadow hidden group-hover:block">
+              <div className="absolute right-0 top-full w-40 bg-white rounded shadow hidden group-hover:block">
                 <button
                   onClick={handleReloadBalance}
                   className="block w-full px-4 py-2 hover:bg-gray-100 text-left"
