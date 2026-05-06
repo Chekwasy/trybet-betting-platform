@@ -202,7 +202,7 @@ function SignupPage() { // Renamed from 'Page' to 'SignupPage' for clarity
       <div className="bg-white rounded-xl shadow-2xl p-8 w-full max-w-md animate-fade-in">
         <h2 className="text-4xl font-extrabold text-green-700 mb-6 text-center">Join TryBet!</h2>
         <p className="text-gray-600 text-sm mb-6 text-center">
-          Create your account to start playing.
+          Create your acc to start playing.
         </p>
 
         <form onSubmit={handleSubmit} noValidate>
