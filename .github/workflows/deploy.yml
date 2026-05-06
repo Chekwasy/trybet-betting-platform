@@ -17,7 +17,10 @@ jobs:
           username: ubuntu
           key: ${{ secrets.EC2_SSH_KEY }}
           script: |
-            cd trybet-betting-platform/bet
+            export NVM_DIR="$HOME/.nvm"
+            [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+            cd trybet-betting-platform/bet || exit 1
             git pull origin main
             npm install
             pm2 restart trybet || pm2 start npm --name "trybet" -- start
