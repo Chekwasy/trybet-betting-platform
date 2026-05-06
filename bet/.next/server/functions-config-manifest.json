@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/checktok": {},
+    "/api/connect": {},
+    "/api/disconnect": {},
+    "/api/getabout": {},
+    "/api/getdate": {},
+    "/api/getme": {},
+    "/api/getopenbet": {},
+    "/api/getpoint5": {},
+    "/api/getpoint5pro": {},
+    "/api/getreload": {},
+    "/api/getsavedgames": {},
+    "/api/gettwo2win": {},
+    "/api/initpay": {},
+    "/api/postbet": {},
+    "/api/postsavedgames": {},
+    "/api/postx": {},
+    "/api/postx2": {},
+    "/api/puser": {},
+    "/api/sendtok": {}
+  }
+}

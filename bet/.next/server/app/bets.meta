@@ -1,0 +1,15 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/bets/layout,_N_T_/bets/page,_N_T_/bets"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/bets/__PAGE__",
+    "/bets",
+    "/_index",
+    "/_head"
+  ]
+}

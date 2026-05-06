@@ -1,0 +1,3 @@
+{
+  "/api/getgames/route": "app/api/getgames/route.js"
+}

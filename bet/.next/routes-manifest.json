@@ -1,0 +1,278 @@
+{
+  "version": 3,
+  "pages404": true,
+  "appType": "app",
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "rewrites": {
+    "beforeFiles": [],
+    "afterFiles": [],
+    "fallback": []
+  },
+  "dynamicRoutes": [],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_global-error",
+      "regex": "^/_global\\-error(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_global\\-error(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/about",
+      "regex": "^/about(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/about(?:/)?$"
+    },
+    {
+      "page": "/api/checktok",
+      "regex": "^/api/checktok(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/checktok(?:/)?$"
+    },
+    {
+      "page": "/api/connect",
+      "regex": "^/api/connect(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/connect(?:/)?$"
+    },
+    {
+      "page": "/api/disconnect",
+      "regex": "^/api/disconnect(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/disconnect(?:/)?$"
+    },
+    {
+      "page": "/api/getabout",
+      "regex": "^/api/getabout(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getabout(?:/)?$"
+    },
+    {
+      "page": "/api/getclosebet",
+      "regex": "^/api/getclosebet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getclosebet(?:/)?$"
+    },
+    {
+      "page": "/api/getdate",
+      "regex": "^/api/getdate(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getdate(?:/)?$"
+    },
+    {
+      "page": "/api/getgames",
+      "regex": "^/api/getgames(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getgames(?:/)?$"
+    },
+    {
+      "page": "/api/getme",
+      "regex": "^/api/getme(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getme(?:/)?$"
+    },
+    {
+      "page": "/api/getopenbet",
+      "regex": "^/api/getopenbet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getopenbet(?:/)?$"
+    },
+    {
+      "page": "/api/getpoint5",
+      "regex": "^/api/getpoint5(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getpoint5(?:/)?$"
+    },
+    {
+      "page": "/api/getpoint5pro",
+      "regex": "^/api/getpoint5pro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getpoint5pro(?:/)?$"
+    },
+    {
+      "page": "/api/getreload",
+      "regex": "^/api/getreload(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getreload(?:/)?$"
+    },
+    {
+      "page": "/api/getsavedgames",
+      "regex": "^/api/getsavedgames(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/getsavedgames(?:/)?$"
+    },
+    {
+      "page": "/api/gettwo2win",
+      "regex": "^/api/gettwo2win(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/gettwo2win(?:/)?$"
+    },
+    {
+      "page": "/api/initpay",
+      "regex": "^/api/initpay(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/initpay(?:/)?$"
+    },
+    {
+      "page": "/api/postbet",
+      "regex": "^/api/postbet(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/postbet(?:/)?$"
+    },
+    {
+      "page": "/api/postsavedgames",
+      "regex": "^/api/postsavedgames(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/postsavedgames(?:/)?$"
+    },
+    {
+      "page": "/api/postx",
+      "regex": "^/api/postx(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/postx(?:/)?$"
+    },
+    {
+      "page": "/api/postx2",
+      "regex": "^/api/postx2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/postx2(?:/)?$"
+    },
+    {
+      "page": "/api/puser",
+      "regex": "^/api/puser(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/puser(?:/)?$"
+    },
+    {
+      "page": "/api/resetpwd",
+      "regex": "^/api/resetpwd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/resetpwd(?:/)?$"
+    },
+    {
+      "page": "/api/sendtok",
+      "regex": "^/api/sendtok(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/sendtok(?:/)?$"
+    },
+    {
+      "page": "/api/verify",
+      "regex": "^/api/verify(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/api/verify(?:/)?$"
+    },
+    {
+      "page": "/auth/fpwd",
+      "regex": "^/auth/fpwd(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/fpwd(?:/)?$"
+    },
+    {
+      "page": "/auth/login",
+      "regex": "^/auth/login(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/login(?:/)?$"
+    },
+    {
+      "page": "/auth/signup",
+      "regex": "^/auth/signup(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/auth/signup(?:/)?$"
+    },
+    {
+      "page": "/bets",
+      "regex": "^/bets(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/bets(?:/)?$"
+    },
+    {
+      "page": "/chekwasy",
+      "regex": "^/chekwasy(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chekwasy(?:/)?$"
+    },
+    {
+      "page": "/chekwasy2",
+      "regex": "^/chekwasy2(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chekwasy2(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/point5",
+      "regex": "^/point5(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/point5(?:/)?$"
+    },
+    {
+      "page": "/point5pro",
+      "regex": "^/point5pro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/point5pro(?:/)?$"
+    },
+    {
+      "page": "/profile",
+      "regex": "^/profile(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/profile(?:/)?$"
+    },
+    {
+      "page": "/sub",
+      "regex": "^/sub(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/sub(?:/)?$"
+    },
+    {
+      "page": "/two2win",
+      "regex": "^/two2win(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/two2win(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "rsc",
+    "varyHeader": "rsc, next-router-state-tree, next-router-prefetch, next-router-segment-prefetch",
+    "prefetchHeader": "next-router-prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSegmentHeader": "next-router-segment-prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments",
+    "clientParamParsing": false,
+    "dynamicRSCPrerender": false
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  }
+}

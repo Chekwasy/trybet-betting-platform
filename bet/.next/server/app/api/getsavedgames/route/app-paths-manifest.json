@@ -1,0 +1,3 @@
+{
+  "/api/getsavedgames/route": "app/api/getsavedgames/route.js"
+}
